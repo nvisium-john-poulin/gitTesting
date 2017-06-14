@@ -1,5 +1,5 @@
 class TestController < ApplicationController
     def index
-        render params[:page]
+        render 'documentation'
     end
 end
